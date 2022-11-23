@@ -77,13 +77,12 @@ Representan atajos para acceder a nuestros archivos permitiéndonos implementar 
 }
 ```
 
-### **Utils configurations (angular.json)**
+### **Angular Configuration (angular.json)**
 
 Es solo una recomendación disponible para usar a la hora de compilar nuestra aplicación.   
 Reemplaza el archivos de environments por environments.local en caso de que se trabaje en desarrollo y environments.prod para producción.
 
 ```json
-...
 "configurations": {
     "development": {
         "budgets": [
@@ -129,7 +128,6 @@ Reemplaza el archivos de environments por environments.local en caso de que se t
         "namedChunks": false
     }
 }
-...
 ```
 
 ## **Angular Modules**
