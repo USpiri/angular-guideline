@@ -1,7 +1,8 @@
 
 # **Angular architecture, recommendations and good practices**
 
-Serie de lineamientos para la estructura, organización y buenas prácticas de proyectos en Angular, ayudando a escribir código limpio y mantener un standar de código y performance.
+Serie de lineamientos para la estructura, organización y buenas prácticas de proyectos en Angular, ayudando a escribir código limpio y mantener un standar de código y performance.  
+Este artículo no pretende ser una guía explicando cada concepto de Angular, tampoco ser reglas estrictas, como indica el título son recomendaciones.
 
 ## **Angular**  
 
