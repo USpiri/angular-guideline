@@ -4,11 +4,33 @@
 Serie de lineamientos para la estructura, organización y buenas prácticas de proyectos en Angular, ayudando a escribir código limpio y mantener un standar de código y performance.  
 Este artículo no pretende ser una guía explicando cada concepto de Angular, tampoco ser reglas estrictas, como indica el título son recomendaciones.
 
+## Indice:
+
+- [Angular](#angular)
+- [Versión de Angular](#version-de-angular)
+- [Angular CLI](#usar-angular-cli)
+- [Comandos utiles](#comandos-utiles)
+- [Angular Coding Style](#angular-coding-style)
+- [Angular Configuration](#angular-configuration)
+- [Angular Modules](#angular-modules)
+- [Angular Components](#angular-components)
+- [Angular Standalone Components](#angular-standalone-components)
+- [File naming](#file-naming)
+- [Folder Structure](#folder-structure)
+- [Barrels](#barrels)
+- [Lazy Loading](#lazy-loading)
+- [Data Infrastructure](#data-infrastructure)
+- [Spinner](#spinner)
+- [Pipes](#pipes)
+- [Observables](#observables)
+- [Angular Material](#angular-material)
+
+
 ## **Angular**  
 
 Angular es un Framework de JavaScript de código abierto escrito en **TypeScript**. Su objetivo principal es desarrollar aplicaciones de una sola página. Google se encarga del mantenimiento y constantes actualizaciones de mejoras para este framework.  
 
-#### Versión de Angular
+#### Version de Angular
 
 Esta guideline fue creada pensando en la versión de **Angular 14**
 
@@ -16,7 +38,7 @@ Esta guideline fue creada pensando en la versión de **Angular 14**
 
 [Angular CLI](https://cli.angular.io/) es la herramienta por defecto a la hora de desarrollar una app en Angular. Este CLI facilita la creación de la aplicación siguiendo con buenas prácticas por lo que un buen consejo es **Usar Angular CLI** para generar los nuevos componentes, directivas, módulos, servicios y pipes.
 
-#### Comandos útiles
+#### Comandos utiles
 
 ```c
 // Instalar Angular CLI
